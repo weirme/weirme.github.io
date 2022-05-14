@@ -16,36 +16,36 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: weirme                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: march comes in like a lion   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  weirme's personal blog, powered by Jekyll and Github pages.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://weirme.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: weirme             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: weirmezz            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: weirme
+  email: weirme@foxmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/weirme       # change to your github homepage
+    - https://twitter.com/weirmezz      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -80,10 +80,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: https://raw.githubusercontent.com/weirme/picgo/main/
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: DC751EAE-6C3C-4052-B734-5EBD6D3A89B2.jpeg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
