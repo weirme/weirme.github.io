@@ -68,7 +68,7 @@ $$
 
 Another way to regularize is choosing some points in the whole set as prototypes, and then consider these points as centers $\boldsymbol \mu_m$.
 
-## $k$-Means Algorithm
+## k-Means Algorithm
 
 Next we try to cluster with the prototype $\boldsymbol\mu_m$, divide the whole dataset into $M$ disjoint sets $S_1, S_2, ... , S_M$ and choose $\boldsymbol\mu_m$ for each $S_m$. For each $\boldsymbol x_i, \boldsymbol x_j$ both belong to $S_m$, we hope that $\boldsymbol \mu_m \approx \boldsymbol x_i \approx \boldsymbol x_j$.The squared error is
 
@@ -76,7 +76,7 @@ $$
 E_\text{in}(S_1,S_2,...,S_M;\boldsymbol\mu_1,\boldsymbol\mu_2,...,\boldsymbol\mu_M)=\frac{1}{N}\sum_{n=1}^N\sum_{m=1}^M[\![\boldsymbol x_n \in S_m]\!]\Vert\boldsymbol x_n-\boldsymbol \mu_m\Vert^2 \tag{12.9}
 $$
 
-this problem is hard to optimize, we consider $\{S_m\}_{m=1}^M, \{\boldsymbol \mu_m\}_{m=1}^M$ as two sets of variables and then optimize them respectively. When $S_1,S_2,...,S_M$ is fixed, we derivative $E_\text{in}$ on $\boldsymbol\mu_m$
+this problem is hard to optimize, we consider $\lbrace S_m\rbrace_{m=1}^M, \lbrace\boldsymbol \mu_m\rbrace_{m=1}^M$ as two sets of variables and then optimize them respectively. When $S_1,S_2,...,S_M$ is fixed, we derivative $E_\text{in}$ on $\boldsymbol\mu_m$
 
 $$
 \begin{split}
