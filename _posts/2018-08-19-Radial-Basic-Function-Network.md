@@ -24,7 +24,7 @@ $$
 
 it can be referred as a neural network whose hidden layer consists of those 'center' points and output layer is simple linear aggregation
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/22.png" width='60%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/22.png" width='60%'>
 
 in a general form, RBF network hypothesis is
 

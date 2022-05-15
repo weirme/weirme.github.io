@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://raw.githubusercontent.com/weirme/picgo/main/
+img_cdn: https://raw.githubusercontent.com/weirme/picme/main/
 
 # the avatar on sidebar, support local or CORS resources
 avatar: DC751EAE-6C3C-4052-B734-5EBD6D3A89B2.jpeg

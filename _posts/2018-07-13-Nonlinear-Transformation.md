@@ -8,11 +8,11 @@ math: true
 
 Consider classification problem as follows:
 
-<img src='https://raw.githubusercontent.com/weirme/picgo/main/6.png' width='40%'>
+<img src='https://raw.githubusercontent.com/weirme/picme/main/6.png' width='40%'>
 
 obviously, it is a nonlinear separable problem, but we can use a circle to reach our goal:
 
-<img src='https://raw.githubusercontent.com/weirme/picgo/main/7.png' width='40%'>
+<img src='https://raw.githubusercontent.com/weirme/picme/main/7.png' width='40%'>
 
 hypothesis of this model can be written as
 

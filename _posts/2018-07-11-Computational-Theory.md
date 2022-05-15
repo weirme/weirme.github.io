@@ -127,4 +127,4 @@ $$
 
 $\Omega(N,\mathcal H,\delta)$ in formula above represents penalty for model complexity, and from which we can see powerful $h$ is not always good. Based on it, we have VC-curve as follows:
 
-![](https://raw.githubusercontent.com/weirme/picgo/main/8.png)
+![](https://raw.githubusercontent.com/weirme/picme/main/8.png)

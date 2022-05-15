@@ -37,7 +37,7 @@ $$
 \boldsymbol w_{t+1} \gets \boldsymbol w_t+y_{n(t)}\boldsymbol x_{n(t)} \tag{3.3}
 $$
 
-<img src='https://raw.githubusercontent.com/weirme/picgo/main/2.png' width='60%'>
+<img src='https://raw.githubusercontent.com/weirme/picme/main/2.png' width='60%'>
 
 PLA works well in 3D or even higher space, as shown in the figure above, the sample point is located on the lower side of plane determined by $\boldsymbol w$ but it located on the upper side of plane after modification.
 

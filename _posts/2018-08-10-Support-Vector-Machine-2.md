@@ -86,7 +86,7 @@ $$
 
 According to the specific $\alpha_n$, we can judge the position of sample $\boldsymbol x_n$.
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/15.png" width='40%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/15.png" width='40%'>
 
 - when $\alpha_n=0$, then $\xi_n=0$. The sample is non support vector which should be away from the boundary.
 - when $0<\alpha_n<C$, then $\xi_n=0$. The sample is a free support vector located on the boundary. (square in figure)
@@ -224,7 +224,7 @@ this inverse matrix always exists because we have $\lambda>0$ and $\boldsymbol K
 
 Similar to soft-margin SVM, we consider a special 'tube' regression
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/16.png" width='40%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/16.png" width='40%'>
 
 as shown in above image, points in the tube is regarded as no error while points outside the tube have a error measured by distance to tube. That is
 

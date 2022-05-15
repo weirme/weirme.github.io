@@ -8,7 +8,7 @@ math: true
 
 Neural Network is a classic algorithm originated from perceptron. Linearly combine various perceptrons such as the figure
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/17.png" width='50%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/17.png" width='50%'>
 
 the final hypothesis $G$ is
 
@@ -24,7 +24,7 @@ $$
 
 Consider a more complex neural network with $L$ layers
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/18.png" width='75%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/18.png" width='75%'>
 
 the input $\boldsymbol x$ can be regarded as the $0$-th layer, then record numbers of nodes in each layer as $d^{(0)}, d^{(1)}, ... , d^{(L)}$, and $w_{ij}^{(\ell)}$ is weight in $\ell$-th layer  from $i$-th node in $(\ell-1)$-th layer to $j$-th node in $\ell$-th layer, $s_j^{(\ell)}$ is score of $j$-th node in $\ell$-th layer, $x_i^{(\ell)}$ is transformed input of $i$-th node in $\ell$-th layer.
 

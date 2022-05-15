@@ -12,13 +12,13 @@ math: true
 
 Firstly, we consider 3 linear classifier on the same dataset as follows:
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/12.png" width='80%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/12.png" width='80%'>
 
 both of them seem performing well but the rightmost one whose hyperplane is farthest from samples is likely to be better.
 
 Assume a Gaussian-like noise on future sample $\boldsymbol x \approx \boldsymbol x_n$ in gray area of the following figure:
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/13.png" width='80%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/13.png" width='80%'>
 
 if $\boldsymbol x_n$ is further from hyperplane, that is, distance between hyperplane and the closest $\boldsymbol x_n$ is greater, then the classifier can tolerate more noise and is more robust to overfitting.
 
@@ -289,7 +289,7 @@ $$
 
 Next we consider different choices of $\gamma$
 
-<img src="https://raw.githubusercontent.com/weirme/picgo/main/14.png" width='80%'>
+<img src="https://raw.githubusercontent.com/weirme/picme/main/14.png" width='80%'>
 
 obviously, we find that a too large $\gamma$ results in overfit. Therefore, a relatively small $\gamma$ is recommendable.
 
