@@ -42,7 +42,7 @@ All three algorithm we mentioned above have the same linear scoring function $s=
 
 Draw these error function on an image:
 
-<img src='https://raw.githubusercontent.com/weirme/picgo/main/3.png' width='50%'>
+<img src='https://raw.githubusercontent.com/weirme/picme/main/3.png' width='50%'>
 
 as shown, $\rm err_{SCE}$ is an upper bound of $\rm err_{0/1}$, therefore if we can limit $\rm err_{SCE}$ to a small value, then $\rm err_{0/1}$ should also be small. And VC bound theory gives a more powerful proof of it. Thus we can safely use linear models for classification.
 
@@ -94,7 +94,7 @@ When using SGD logistic regression, we usually stop iteration when $t$ is large 
 
 Assuming that there are four categories in the question, each time we treat one of the categories as positive , while all other categories become negative, it can build a binary classifier. Keeping loop, and finally we will get 4 classifiers as following figure:
 
-<img src='https://raw.githubusercontent.com/weirme/picgo/main/4.png' width='80%'>
+<img src='https://raw.githubusercontent.com/weirme/picme/main/4.png' width='80%'>
 
 But when all the four classifiers put a sample into negative class, such as the middle area of the figure above. what should we do?
 
@@ -116,6 +116,6 @@ It is important to note OVA can't perform very well when $\vert\mathcal Y\vert$ 
 
 We can use **One-Versus-One (OVO)** decomposition to solve the problem. OVO chooses only two of all categories to bulid a classifier as follows:
 
-<img src='https://raw.githubusercontent.com/weirme/picgo/main/5.png' width='80%'>
+<img src='https://raw.githubusercontent.com/weirme/picme/main/5.png' width='80%'>
 
  after bulid all classifiers (whose number should be $\binom {\vert\mathcal Y\vert}{2}$), we use 'voting method' to get the final result.
