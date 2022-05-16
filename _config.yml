@@ -23,7 +23,7 @@ timezone: Asia/Shanghai
 
 title: weirme                          # the main title
 
-tagline: march comes in like a lion   # it will display as the sub-title
+tagline: rational & independent   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   weirme's personal blog, powered by Jekyll and Github pages.

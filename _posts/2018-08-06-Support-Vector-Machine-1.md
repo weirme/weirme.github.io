@@ -81,7 +81,7 @@ we call each boundary sample **Support Vector**, which satisfies $y_n(\boldsymbo
 
 ### Quadratic Programming
 
-Fortunately, our goal is a quadratic problem which is easy to solve, next we try to convert our goal to a standard form of quadratic programming.$QP(\boldsymbol Q,\boldsymbol p,\boldsymbol A,\boldsymbol c)$:
+Fortunately, our goal is a quadratic problem which is easy to solve, next we try to convert our goal to a standard form of quadratic programming $\text{QP}(\boldsymbol Q,\boldsymbol p,\boldsymbol A,\boldsymbol c)$:
 
 $$
 \begin{split}

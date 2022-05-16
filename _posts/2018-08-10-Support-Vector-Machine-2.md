@@ -148,7 +148,7 @@ $$
 \min_{\boldsymbol w} \ \frac{\lambda}{N}\boldsymbol w^\text T\boldsymbol w+\frac{1}{N}\sum_{n=1}^N\text{err}(y_n, \boldsymbol w^\text T\boldsymbol x) \tag{9.46}
 $$
 
-the optimal $\boldsymbol w$ can be written as $\boldsymbol w_*=\sum_{n=1}^N\beta_n\boldsymbol x_n$. Assume we have a optimal $\boldsymbol w_*$ violates this equality, and $\boldsymbol w_*=\boldsymbol w_\bot+\boldsymbol w_\Vert$, where $\boldsymbol w_\bot \in \text{ span}(\boldsymbol x_n)$ and $\boldsymbol w_\Vert \bot \text{ span}(\boldsymbol x_n)$. then we have
+the optimal $\boldsymbol w$ can be written as $\boldsymbol w_\ast=\sum_{n=1}^N\beta_n\boldsymbol x_n$. Assume we have a optimal $\boldsymbol w_\ast$ violates this equality, and $\boldsymbol w_\ast=\boldsymbol w_\bot+\boldsymbol w_\Vert$, where $\boldsymbol w_\bot \in \text{ span}(\boldsymbol x_n)$ and $\boldsymbol w_\Vert \bot \text{ span}(\boldsymbol x_n)$. then we have
 
 $$
 \text{err}(y_n, \boldsymbol w_*^\text T\boldsymbol x)=\text{err}(y_n, (\boldsymbol w_\bot+\boldsymbol w_\Vert)^\text T\boldsymbol x) = \text{err}(y_n, \boldsymbol w_\Vert^\text T\boldsymbol x) \tag{9.47}
